@@ -14,4 +14,4 @@
 
 ### GIF
 
-<img src=""/>
+<img src="./public/reduxmenu.gif"/>
