@@ -2,9 +2,7 @@ import api from "../../utils/api";
 import Actions from "../actionTypes";
 
 //! Asenkron Thunk Akisyonu
-// Normalde redux asenkron işlemler yapabilen akiyonları kabul etmez bundan kaynaklı olarak bir thunk aksiyonu oluşturucaz
 
-//? Nasıl Tanımlarız ?
 // Bir thunk fonksiyonu tanınmlamak için bir fonksiyon içerisnde ikinci fonksiyonu return ederiz ve return ettiğimiz bu fonksiyon dispatch'i parametre olarak alır
 const thunkFonksiyonu = () => {
   return (dispatch) => {

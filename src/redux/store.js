@@ -10,5 +10,5 @@ const rootReducer = combineReducers({
   cart: cartReducer,
 });
 
-// applyMiddleware herhangi bir arayazılımı reduc'a dahil etmeye yarar. Biz burda thunk arayzılımını dahil etmek için kullandık. Artık thunk'ın asenkron aksiyonlarını yazabilecez.
+// applyMiddleware herhangi bir arayazılımı reduc'a dahil etmeye yarar.Burda thunk arayzılımını dahil ettik
 export default createStore(rootReducer, applyMiddleware(thunk));

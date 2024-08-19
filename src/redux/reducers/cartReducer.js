@@ -24,7 +24,7 @@ const cartReducer = (state = initialState, action) => {
       return { ...state, cart: updatedCart };
 
     case Actions.UPDATE_ITEM:
-      // actionun payloadı izle gelen elemanın id'sinden yola çıkarak dizideki halini bukduk ve güncelledik
+      // actionun payloadı izle gelen elemanın id'sinden yola çıkarak dizideki halini bulup ve güncelle
       const updatedArr = state.cart.map((i) =>
         i.id === action.payload.id ? action.payload : i
       );
